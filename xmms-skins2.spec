@@ -2,18 +2,20 @@ Summary:	Skins from Internet
 Summary(pl):	Skórki z Internetu
 Name:		xmms-skins2
 Version:	1.0
-Release:	2
+Release:	3
 License:	Free
 Group:		X11/Applications/Multimedia
 Source0:	%{name}.tar.gz
 # Source0-md5:	df30ab8599fd1e4cfab7b592e20bfa51
+BuildRequires:	rpmbuild(macros) >= 1.125
+BuildRequires:	xmms-devel
 Requires:	bzip2
 Requires:	tar
 Requires:	xmms
-BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 BuildArch:	noarch
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define		skinsdir	%{_prefix}/share/xmms/Skins
+%define		skinsdir	%{xmms_datadir}/Skins
 
 %description
 Additional skins for XMMS found in Internet. They were carefully
