@@ -2,7 +2,7 @@ Summary:	Skins from Internet
 Summary(pl):	Skórki z Internetu
 Name:		xmms-skins2
 Version:	1.0
-Release:	5
+Release:	6
 License:	Free
 Group:		X11/Applications/Multimedia
 Source0:	http://ep09.pld-linux.org/~havner/%{name}.tar.bz2
@@ -15,6 +15,7 @@ Requires:	tar
 Requires:	xmms
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
+Obsoletes:	xmms-skin
 
 %define		_skindir	%{xmms_datadir}/Skins
 
@@ -66,6 +67,9 @@ Ten pakiet zawiera nastêpuj±ce skórki:
 Summary:	2K skin
 Summary(pl):	Skórka 2K
 Group:		X11/Applications/Multimedia
+Requires:	xmms
+Provides:	xmms-skin
+Obsoletes:	xmms-skins
 
 %description -n xmms-skin-2K
 2K skin.
@@ -77,6 +81,9 @@ Skórka 2K.
 Summary:	Advanced skin
 Summary(pl):	Skórka Advanced
 Group:		X11/Applications/Multimedia
+Requires:	xmms
+Provides:	xmms-skin
+Obsoletes:	xmms-skins
 
 %description -n xmms-skin-Advanced
 Advanced skin.
@@ -88,6 +95,9 @@ Skórka Advanced.
 Summary:	BlackDawn skin
 Summary(pl):	Skórka BlackDawn
 Group:		X11/Applications/Multimedia
+Requires:	xmms
+Provides:	xmms-skin
+Obsoletes:	xmms-skins
 
 %description -n xmms-skin-BlackDawn
 BlackDawn skin.
@@ -99,6 +109,9 @@ Skórka BlackDawn.
 Summary:	BlueSteel skin
 Summary(pl):	Skórka BlueSteel
 Group:		X11/Applications/Multimedia
+Requires:	xmms
+Provides:	xmms-skin
+Obsoletes:	xmms-skins
 
 %description -n xmms-skin-BlueSteel
 BlueSteel skin.
@@ -110,6 +123,9 @@ Skórka BlueSteel.
 Summary:	Camel skin
 Summary(pl):	Skórka Camel
 Group:		X11/Applications/Multimedia
+Requires:	xmms
+Provides:	xmms-skin
+Obsoletes:	xmms-skins
 
 %description -n xmms-skin-Camel
 Camel skin.
@@ -121,6 +137,9 @@ Skórka Camel.
 Summary:	CrystalBastard skin
 Summary(pl):	Skórka CrystalBastard
 Group:		X11/Applications/Multimedia
+Requires:	xmms
+Provides:	xmms-skin
+Obsoletes:	xmms-skins
 
 %description -n xmms-skin-CrystalBastard
 CrystalBastard skin.
@@ -132,6 +151,9 @@ Skórka CrystalBastard.
 Summary:	Digitool skin
 Summary(pl):	Skórka Digitool
 Group:		X11/Applications/Multimedia
+Requires:	xmms
+Provides:	xmms-skin
+Obsoletes:	xmms-skins
 
 %description -n xmms-skin-Digitool
 Digitool skin.
@@ -143,6 +165,9 @@ Skórka Digitool.
 Summary:	ElectroPC skin
 Summary(pl):	Skórka ElectroPC
 Group:		X11/Applications/Multimedia
+Requires:	xmms
+Provides:	xmms-skin
+Obsoletes:	xmms-skins
 
 %description -n xmms-skin-ElectroPC
 ElectroPC skin.
@@ -154,6 +179,9 @@ Skórka ElectroPC.
 Summary:	Escalate skin
 Summary(pl):	Skórka Escalate
 Group:		X11/Applications/Multimedia
+Requires:	xmms
+Provides:	xmms-skin
+Obsoletes:	xmms-skins
 
 %description -n xmms-skin-Escalate
 Escalate skin.
@@ -165,6 +193,9 @@ Skórka Escalate.
 Summary:	ForcedToBe skin
 Summary(pl):	Skórka ForcedToBe
 Group:		X11/Applications/Multimedia
+Requires:	xmms
+Provides:	xmms-skin
+Obsoletes:	xmms-skins
 
 %description -n xmms-skin-ForcedToBe
 ForcedToBe skin.
@@ -176,6 +207,9 @@ Skórka ForcedToBe.
 Summary:	Kinwashi-Auriga skin
 Summary(pl):	Skórka Kinwashi-Auriga
 Group:		X11/Applications/Multimedia
+Requires:	xmms
+Provides:	xmms-skin
+Obsoletes:	xmms-skins
 
 %description -n xmms-skin-Kinwashi-Auriga
 Kinwashi-Auriga skin.
@@ -187,6 +221,9 @@ Skórka Kinwashi-Auriga.
 Summary:	Mercury skin
 Summary(pl):	Skórka Mercury
 Group:		X11/Applications/Multimedia
+Requires:	xmms
+Provides:	xmms-skin
+Obsoletes:	xmms-skins
 
 %description -n xmms-skin-Mercury
 Mercury skin.
@@ -198,6 +235,9 @@ Skórka Mercury.
 Summary:	Merregnon skin
 Summary(pl):	Skórka Merregnon
 Group:		X11/Applications/Multimedia
+Requires:	xmms
+Provides:	xmms-skin
+Obsoletes:	xmms-skins
 
 %description -n xmms-skin-Merregnon
 Merregnon skin.
@@ -209,6 +249,9 @@ Skórka Merregnon.
 Summary:	Plastik skin
 Summary(pl):	Skórka Plastik
 Group:		X11/Applications/Multimedia
+Requires:	xmms
+Provides:	xmms-skin
+Obsoletes:	xmms-skins
 
 %description -n xmms-skin-Plastik
 Plastik skin.
@@ -220,6 +263,9 @@ Skórka Plastik.
 Summary:	Relic skin
 Summary(pl):	Skórka Relic
 Group:		X11/Applications/Multimedia
+Requires:	xmms
+Provides:	xmms-skin
+Obsoletes:	xmms-skins
 
 %description -n xmms-skin-Relic
 Relic skin.
@@ -231,6 +277,9 @@ Skórka Relic.
 Summary:	Topaz skin
 Summary(pl):	Skórka Topaz
 Group:		X11/Applications/Multimedia
+Requires:	xmms
+Provides:	xmms-skin
+Obsoletes:	xmms-skins
 
 %description -n xmms-skin-Topaz
 Topaz skin.
@@ -242,6 +291,9 @@ Skórka Topaz.
 Summary:	WinampX skin
 Summary(pl):	Skórka WinampX
 Group:		X11/Applications/Multimedia
+Requires:	xmms
+Provides:	xmms-skin
+Obsoletes:	xmms-skins
 
 %description -n xmms-skin-WinampX
 WinampX skin.
