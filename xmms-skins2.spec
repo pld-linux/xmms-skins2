@@ -6,6 +6,7 @@ Release:	2
 License:	Free
 Group:		X11/Applications/Multimedia
 Source0:	%{name}.tar.gz
+# Source0-md5:	df30ab8599fd1e4cfab7b592e20bfa51
 Requires:	bzip2
 Requires:	tar
 Requires:	xmms
