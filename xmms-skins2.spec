@@ -223,8 +223,6 @@ Skórka Topaz.
 %prep
 %setup -q -n xmms-skins2
 
-%build
-
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{skinsdir}
