@@ -2,7 +2,7 @@ Summary:	Skins from Internet
 Summary(pl):	Skórki z Internetu
 Name:		xmms-skins2
 Version:	1.0
-Release:	6
+Release:	7
 License:	Free
 Group:		X11/Applications/Multimedia
 Source0:	http://ep09.pld-linux.org/~havner/%{name}.tar.bz2
