@@ -2,11 +2,11 @@ Summary:	Skins from Internet
 Summary(pl):	Skórki z Internetu
 Name:		xmms-skins2
 Version:	1.0
-Release:	3
+Release:	4
 License:	Free
 Group:		X11/Applications/Multimedia
 Source0:	%{name}.tar.gz
-# Source0-md5:	df30ab8599fd1e4cfab7b592e20bfa51
+# Source0-md5:	e431748e5d3a24cc1ecf56b2f3e54c04
 BuildRequires:	rpmbuild(macros) >= 1.125
 BuildRequires:	xmms-devel
 Requires:	bzip2
@@ -34,6 +34,7 @@ This package contains following skins:
 - Kinwashi-Auriga
 - Mercury
 - Merregnon
+- Plastik
 - Relic
 - Topaz
 
@@ -54,6 +55,7 @@ Ten pakiet zawiera nastêpuj±ce skórki:
 - Kinwashi-Auriga
 - Mercury
 - Merregnon
+- Plastik
 - Relic
 - Topaz
 
@@ -200,6 +202,17 @@ Merregnon skin.
 %description -n xmms-skin-Merregnon -l pl
 Skórka Merregnon.
 
+%package -n xmms-skin-Plastik
+Summary:	Plastik skin
+Summary(pl):	Skórka Plastik
+Group:		X11/Applications/Multimedia
+
+%description -n xmms-skin-Plastik
+Plastik skin.
+
+%description -n xmms-skin-Plastik -l pl
+Skórka Plastik.
+
 %package -n xmms-skin-Relic
 Summary:	Relic skin
 Summary(pl):	Skórka Relic
@@ -295,6 +308,11 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc doc/Merregnon.txt.gz
 %{skinsdir}/Merregnon.tar.bz2
+
+%files -n xmms-skin-Plastik
+%defattr(644,root,root,755)
+%doc doc/Plastik.txt.gz
+%{skinsdir}/Plastik.tar.bz2
 
 %files -n xmms-skin-Relic
 %defattr(644,root,root,755)
