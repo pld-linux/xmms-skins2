@@ -2,13 +2,12 @@ Summary:	Skins from Internet
 Summary(pl):	Skórki z Internetu
 Name:		xmms-skins2
 Version:	1.0
-Release:	4
+Release:	5
 License:	Free
 Group:		X11/Applications/Multimedia
-Source0:	%{name}.tar.gz
-# Source0-md5:	e431748e5d3a24cc1ecf56b2f3e54c04
+Source0:	http://ep09.pld-linux.org/~havner/%{name}.tar.bz2
+# Source0-md5:	ba72b5ef8c32503a37b3a8658f0601eb
 BuildRequires:	rpmbuild(macros) >= 1.125
-BuildRequires:	xmms-devel
 Requires:	bzip2
 Requires:	tar
 Requires:	xmms
@@ -37,6 +36,7 @@ This package contains following skins:
 - Plastik
 - Relic
 - Topaz
+- WinampX
 
 %description -l pl
 Dodatkowe skórki dla XMMS-a znalezione w Internecie. Zosta³y uwa¿nie
@@ -58,6 +58,7 @@ Ten pakiet zawiera nastêpuj±ce skórki:
 - Plastik
 - Relic
 - Topaz
+- WinampX
 
 %package -n xmms-skin-2K
 Summary:	2K skin
@@ -235,6 +236,17 @@ Topaz skin.
 %description -n xmms-skin-Topaz -l pl
 Skórka Topaz.
 
+%package -n xmms-skin-WinampX
+Summary:	WinampX skin
+Summary(pl):	Skórka WinampX
+Group:		X11/Applications/Multimedia
+
+%description -n xmms-skin-WinampX
+WinampX skin.
+
+%description -n xmms-skin-WinampX -l pl
+Skórka WinampX.
+
 %prep
 %setup -q -n xmms-skins2
 
@@ -323,3 +335,8 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc doc/Topaz.txt.gz
 %{skinsdir}/Topaz.tar.bz2
+
+%files -n xmms-skin-WinampX
+%defattr(644,root,root,755)
+%doc doc/WinampX.txt.gz
+%{skinsdir}/WinampX.tar.bz2
