@@ -15,7 +15,7 @@ BuildArch:	noarch
 %define		skinsdir	%{_prefix}/share/xmms/Skins
 
 %description
-Additional skins for XMMS found in Internet. They were carefuly
+Additional skins for XMMS found in Internet. They were carefully
 selected, so you won't find here monstrosities made in 5 minutes.
 This package contains following skins:
 - 2K
