@@ -16,7 +16,7 @@ Requires:	xmms
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define		skinsdir	%{xmms_datadir}/Skins
+%define		_skindir	%{xmms_datadir}/Skins
 
 %description
 Additional skins for XMMS found in Internet. They were carefully
@@ -254,9 +254,9 @@ Skórka WinampX.
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT%{skinsdir}
+install -d $RPM_BUILD_ROOT%{_skindir}
 
-install *.bz2 $RPM_BUILD_ROOT%{skinsdir}
+install *.bz2 $RPM_BUILD_ROOT%{_skindir}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
@@ -264,81 +264,81 @@ rm -rf $RPM_BUILD_ROOT
 %files -n xmms-skin-2K
 %defattr(644,root,root,755)
 %doc doc/2K.txt.gz
-%{skinsdir}/2K.tar.bz2
+%{_skindir}/2K.tar.bz2
 
 %files -n xmms-skin-Advanced
 %defattr(644,root,root,755)
 %doc doc/Advanced.txt.gz
-%{skinsdir}/Advanced.tar.bz2
+%{_skindir}/Advanced.tar.bz2
 
 %files -n xmms-skin-BlackDawn
 %defattr(644,root,root,755)
 %doc doc/BlackDawn.txt.gz
-%{skinsdir}/BlackDawn.tar.bz2
+%{_skindir}/BlackDawn.tar.bz2
 
 %files -n xmms-skin-BlueSteel
 %defattr(644,root,root,755)
-%{skinsdir}/BlueSteel.tar.bz2
+%{_skindir}/BlueSteel.tar.bz2
 
 %files -n xmms-skin-Camel
 %defattr(644,root,root,755)
 %doc doc/Camel.txt.gz
-%{skinsdir}/Camel.tar.bz2
+%{_skindir}/Camel.tar.bz2
 
 %files -n xmms-skin-CrystalBastard
 %defattr(644,root,root,755)
 %doc doc/CrystalBastard.txt.gz
-%{skinsdir}/CrystalBastard.tar.bz2
+%{_skindir}/CrystalBastard.tar.bz2
 
 %files -n xmms-skin-Digitool
 %defattr(644,root,root,755)
 %doc doc/Digitool.txt.gz
-%{skinsdir}/Digitool.tar.bz2
+%{_skindir}/Digitool.tar.bz2
 
 %files -n xmms-skin-ElectroPC
 %defattr(644,root,root,755)
 %doc doc/ElectroPC.txt.gz
-%{skinsdir}/ElectroPC.tar.bz2
+%{_skindir}/ElectroPC.tar.bz2
 
 %files -n xmms-skin-Escalate
 %defattr(644,root,root,755)
 %doc doc/Escalate.txt.gz
-%{skinsdir}/Escalate.tar.bz2
+%{_skindir}/Escalate.tar.bz2
 
 %files -n xmms-skin-ForcedToBe
 %defattr(644,root,root,755)
 %doc doc/ForcedToBe.txt.gz
-%{skinsdir}/ForcedToBe.tar.bz2
+%{_skindir}/ForcedToBe.tar.bz2
 
 %files -n xmms-skin-Kinwashi-Auriga
 %defattr(644,root,root,755)
-%{skinsdir}/Kinwashi-Auriga.tar.bz2
+%{_skindir}/Kinwashi-Auriga.tar.bz2
 
 %files -n xmms-skin-Mercury
 %defattr(644,root,root,755)
-%{skinsdir}/Mercury.tar.bz2
+%{_skindir}/Mercury.tar.bz2
 
 %files -n xmms-skin-Merregnon
 %defattr(644,root,root,755)
 %doc doc/Merregnon.txt.gz
-%{skinsdir}/Merregnon.tar.bz2
+%{_skindir}/Merregnon.tar.bz2
 
 %files -n xmms-skin-Plastik
 %defattr(644,root,root,755)
 %doc doc/Plastik.txt.gz
-%{skinsdir}/Plastik.tar.bz2
+%{_skindir}/Plastik.tar.bz2
 
 %files -n xmms-skin-Relic
 %defattr(644,root,root,755)
 %doc doc/Relic.txt.gz
-%{skinsdir}/Relic.tar.bz2
+%{_skindir}/Relic.tar.bz2
 
 %files -n xmms-skin-Topaz
 %defattr(644,root,root,755)
 %doc doc/Topaz.txt.gz
-%{skinsdir}/Topaz.tar.bz2
+%{_skindir}/Topaz.tar.bz2
 
 %files -n xmms-skin-WinampX
 %defattr(644,root,root,755)
 %doc doc/WinampX.txt.gz
-%{skinsdir}/WinampX.tar.bz2
+%{_skindir}/WinampX.tar.bz2
