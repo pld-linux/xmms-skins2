@@ -6,10 +6,11 @@ Release:	1
 License:	Free
 Group:		X11/Applications/Multimedia
 Source0:	%{name}.tar.gz
-Requires:	xmms
-Requires:	tar
 Requires:	bzip2
+Requires:	tar
+Requires:	xmms
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
+BuildArch:	noarch
 
 %define		_prefix		/usr/X11R6
 %define		skinsdir	%{_prefix}/share/xmms/Skins
