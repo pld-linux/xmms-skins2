@@ -8,6 +8,8 @@ Group:		X11/Applications/Multimedia
 Source0:	http://ep09.pld-linux.org/~havner/%{name}.tar.bz2
 # Source0-md5:	ba72b5ef8c32503a37b3a8658f0601eb
 BuildRequires:	rpmbuild(macros) >= 1.125
+# xmms-config script is used to get xmms paths
+BuildRequires:	xmms-libs
 Requires:	bzip2
 Requires:	tar
 Requires:	xmms
