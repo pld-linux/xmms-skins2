@@ -313,6 +313,10 @@ install *.bz2 $RPM_BUILD_ROOT%{_skindir}
 %clean
 rm -rf $RPM_BUILD_ROOT
 
+%files
+%defattr(644,root,root,755)
+%{_skindir}/*
+
 %files -n xmms-skin-2K
 %defattr(644,root,root,755)
 %doc doc/2K.txt.gz
