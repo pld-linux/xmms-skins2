@@ -12,7 +12,6 @@ Requires:	xmms
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 BuildArch:	noarch
 
-%define		_prefix		/usr/X11R6
 %define		skinsdir	%{_prefix}/share/xmms/Skins
 
 %description
