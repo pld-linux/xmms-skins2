@@ -1,5 +1,5 @@
 Summary:	Skins from Internet
-Summary(pl):	Skórki z Internetu
+Summary(pl.UTF-8):   SkÃ³rki z Internetu
 Name:		xmms-skins2
 Version:	1.0
 Release:	7
@@ -41,10 +41,10 @@ This package contains following skins:
 - Topaz
 - WinampX
 
-%description -l pl
-Dodatkowe skórki dla XMMS-a znalezione w Internecie. Zosta³y uwa¿nie
-wybrane, tote¿ nie znajdzie siê tu potworków zrobionych w piêæ minut.
-Ten pakiet zawiera nastêpuj±ce skórki:
+%description -l pl.UTF-8
+Dodatkowe skÃ³rki dla XMMS-a znalezione w Internecie. ZostaÅ‚y uwaÅ¼nie
+wybrane, toteÅ¼ nie znajdzie siÄ™ tu potworkÃ³w zrobionych w piÄ™Ä‡ minut.
+Ten pakiet zawiera nastÄ™pujÄ…ce skÃ³rki:
 - 2K
 - Advanced
 - BlackDawn
@@ -65,7 +65,7 @@ Ten pakiet zawiera nastêpuj±ce skórki:
 
 %package -n xmms-skin-2K
 Summary:	2K skin
-Summary(pl):	Skórka 2K
+Summary(pl.UTF-8):   SkÃ³rka 2K
 Group:		X11/Applications/Multimedia
 Requires:	xmms
 Provides:	xmms-skin
@@ -74,12 +74,12 @@ Obsoletes:	xmms-skins2
 %description -n xmms-skin-2K
 2K skin.
 
-%description -n xmms-skin-2K -l pl
-Skórka 2K.
+%description -n xmms-skin-2K -l pl.UTF-8
+SkÃ³rka 2K.
 
 %package -n xmms-skin-Advanced
 Summary:	Advanced skin
-Summary(pl):	Skórka Advanced
+Summary(pl.UTF-8):   SkÃ³rka Advanced
 Group:		X11/Applications/Multimedia
 Requires:	xmms
 Provides:	xmms-skin
@@ -88,12 +88,12 @@ Obsoletes:	xmms-skins2
 %description -n xmms-skin-Advanced
 Advanced skin.
 
-%description -n xmms-skin-Advanced -l pl
-Skórka Advanced.
+%description -n xmms-skin-Advanced -l pl.UTF-8
+SkÃ³rka Advanced.
 
 %package -n xmms-skin-BlackDawn
 Summary:	BlackDawn skin
-Summary(pl):	Skórka BlackDawn
+Summary(pl.UTF-8):   SkÃ³rka BlackDawn
 Group:		X11/Applications/Multimedia
 Requires:	xmms
 Provides:	xmms-skin
@@ -102,12 +102,12 @@ Obsoletes:	xmms-skins2
 %description -n xmms-skin-BlackDawn
 BlackDawn skin.
 
-%description -n xmms-skin-BlackDawn -l pl
-Skórka BlackDawn.
+%description -n xmms-skin-BlackDawn -l pl.UTF-8
+SkÃ³rka BlackDawn.
 
 %package -n xmms-skin-BlueSteel
 Summary:	BlueSteel skin
-Summary(pl):	Skórka BlueSteel
+Summary(pl.UTF-8):   SkÃ³rka BlueSteel
 Group:		X11/Applications/Multimedia
 Requires:	xmms
 Provides:	xmms-skin
@@ -116,12 +116,12 @@ Obsoletes:	xmms-skins2
 %description -n xmms-skin-BlueSteel
 BlueSteel skin.
 
-%description -n xmms-skin-BlueSteel -l pl
-Skórka BlueSteel.
+%description -n xmms-skin-BlueSteel -l pl.UTF-8
+SkÃ³rka BlueSteel.
 
 %package -n xmms-skin-Camel
 Summary:	Camel skin
-Summary(pl):	Skórka Camel
+Summary(pl.UTF-8):   SkÃ³rka Camel
 Group:		X11/Applications/Multimedia
 Requires:	xmms
 Provides:	xmms-skin
@@ -130,12 +130,12 @@ Obsoletes:	xmms-skins2
 %description -n xmms-skin-Camel
 Camel skin.
 
-%description -n xmms-skin-Camel -l pl
-Skórka Camel.
+%description -n xmms-skin-Camel -l pl.UTF-8
+SkÃ³rka Camel.
 
 %package -n xmms-skin-CrystalBastard
 Summary:	CrystalBastard skin
-Summary(pl):	Skórka CrystalBastard
+Summary(pl.UTF-8):   SkÃ³rka CrystalBastard
 Group:		X11/Applications/Multimedia
 Requires:	xmms
 Provides:	xmms-skin
@@ -144,12 +144,12 @@ Obsoletes:	xmms-skins2
 %description -n xmms-skin-CrystalBastard
 CrystalBastard skin.
 
-%description -n xmms-skin-CrystalBastard -l pl
-Skórka CrystalBastard.
+%description -n xmms-skin-CrystalBastard -l pl.UTF-8
+SkÃ³rka CrystalBastard.
 
 %package -n xmms-skin-Digitool
 Summary:	Digitool skin
-Summary(pl):	Skórka Digitool
+Summary(pl.UTF-8):   SkÃ³rka Digitool
 Group:		X11/Applications/Multimedia
 Requires:	xmms
 Provides:	xmms-skin
@@ -158,12 +158,12 @@ Obsoletes:	xmms-skins2
 %description -n xmms-skin-Digitool
 Digitool skin.
 
-%description -n xmms-skin-Digitool -l pl
-Skórka Digitool.
+%description -n xmms-skin-Digitool -l pl.UTF-8
+SkÃ³rka Digitool.
 
 %package -n xmms-skin-ElectroPC
 Summary:	ElectroPC skin
-Summary(pl):	Skórka ElectroPC
+Summary(pl.UTF-8):   SkÃ³rka ElectroPC
 Group:		X11/Applications/Multimedia
 Requires:	xmms
 Provides:	xmms-skin
@@ -172,12 +172,12 @@ Obsoletes:	xmms-skins2
 %description -n xmms-skin-ElectroPC
 ElectroPC skin.
 
-%description -n xmms-skin-ElectroPC -l pl
-Skórka ElectroPC.
+%description -n xmms-skin-ElectroPC -l pl.UTF-8
+SkÃ³rka ElectroPC.
 
 %package -n xmms-skin-Escalate
 Summary:	Escalate skin
-Summary(pl):	Skórka Escalate
+Summary(pl.UTF-8):   SkÃ³rka Escalate
 Group:		X11/Applications/Multimedia
 Requires:	xmms
 Provides:	xmms-skin
@@ -186,12 +186,12 @@ Obsoletes:	xmms-skins2
 %description -n xmms-skin-Escalate
 Escalate skin.
 
-%description -n xmms-skin-Escalate -l pl
-Skórka Escalate.
+%description -n xmms-skin-Escalate -l pl.UTF-8
+SkÃ³rka Escalate.
 
 %package -n xmms-skin-ForcedToBe
 Summary:	ForcedToBe skin
-Summary(pl):	Skórka ForcedToBe
+Summary(pl.UTF-8):   SkÃ³rka ForcedToBe
 Group:		X11/Applications/Multimedia
 Requires:	xmms
 Provides:	xmms-skin
@@ -200,12 +200,12 @@ Obsoletes:	xmms-skins2
 %description -n xmms-skin-ForcedToBe
 ForcedToBe skin.
 
-%description -n xmms-skin-ForcedToBe -l pl
-Skórka ForcedToBe.
+%description -n xmms-skin-ForcedToBe -l pl.UTF-8
+SkÃ³rka ForcedToBe.
 
 %package -n xmms-skin-Kinwashi-Auriga
 Summary:	Kinwashi-Auriga skin
-Summary(pl):	Skórka Kinwashi-Auriga
+Summary(pl.UTF-8):   SkÃ³rka Kinwashi-Auriga
 Group:		X11/Applications/Multimedia
 Requires:	xmms
 Provides:	xmms-skin
@@ -214,12 +214,12 @@ Obsoletes:	xmms-skins2
 %description -n xmms-skin-Kinwashi-Auriga
 Kinwashi-Auriga skin.
 
-%description -n xmms-skin-Kinwashi-Auriga -l pl
-Skórka Kinwashi-Auriga.
+%description -n xmms-skin-Kinwashi-Auriga -l pl.UTF-8
+SkÃ³rka Kinwashi-Auriga.
 
 %package -n xmms-skin-Mercury
 Summary:	Mercury skin
-Summary(pl):	Skórka Mercury
+Summary(pl.UTF-8):   SkÃ³rka Mercury
 Group:		X11/Applications/Multimedia
 Requires:	xmms
 Provides:	xmms-skin
@@ -228,12 +228,12 @@ Obsoletes:	xmms-skins2
 %description -n xmms-skin-Mercury
 Mercury skin.
 
-%description -n xmms-skin-Mercury -l pl
-Skórka Mercury.
+%description -n xmms-skin-Mercury -l pl.UTF-8
+SkÃ³rka Mercury.
 
 %package -n xmms-skin-Merregnon
 Summary:	Merregnon skin
-Summary(pl):	Skórka Merregnon
+Summary(pl.UTF-8):   SkÃ³rka Merregnon
 Group:		X11/Applications/Multimedia
 Requires:	xmms
 Provides:	xmms-skin
@@ -242,12 +242,12 @@ Obsoletes:	xmms-skins2
 %description -n xmms-skin-Merregnon
 Merregnon skin.
 
-%description -n xmms-skin-Merregnon -l pl
-Skórka Merregnon.
+%description -n xmms-skin-Merregnon -l pl.UTF-8
+SkÃ³rka Merregnon.
 
 %package -n xmms-skin-Plastik
 Summary:	Plastik skin
-Summary(pl):	Skórka Plastik
+Summary(pl.UTF-8):   SkÃ³rka Plastik
 Group:		X11/Applications/Multimedia
 Requires:	xmms
 Provides:	xmms-skin
@@ -256,12 +256,12 @@ Obsoletes:	xmms-skins2
 %description -n xmms-skin-Plastik
 Plastik skin.
 
-%description -n xmms-skin-Plastik -l pl
-Skórka Plastik.
+%description -n xmms-skin-Plastik -l pl.UTF-8
+SkÃ³rka Plastik.
 
 %package -n xmms-skin-Relic
 Summary:	Relic skin
-Summary(pl):	Skórka Relic
+Summary(pl.UTF-8):   SkÃ³rka Relic
 Group:		X11/Applications/Multimedia
 Requires:	xmms
 Provides:	xmms-skin
@@ -270,12 +270,12 @@ Obsoletes:	xmms-skins2
 %description -n xmms-skin-Relic
 Relic skin.
 
-%description -n xmms-skin-Relic -l pl
-Skórka Relic.
+%description -n xmms-skin-Relic -l pl.UTF-8
+SkÃ³rka Relic.
 
 %package -n xmms-skin-Topaz
 Summary:	Topaz skin
-Summary(pl):	Skórka Topaz
+Summary(pl.UTF-8):   SkÃ³rka Topaz
 Group:		X11/Applications/Multimedia
 Requires:	xmms
 Provides:	xmms-skin
@@ -284,12 +284,12 @@ Obsoletes:	xmms-skins2
 %description -n xmms-skin-Topaz
 Topaz skin.
 
-%description -n xmms-skin-Topaz -l pl
-Skórka Topaz.
+%description -n xmms-skin-Topaz -l pl.UTF-8
+SkÃ³rka Topaz.
 
 %package -n xmms-skin-WinampX
 Summary:	WinampX skin
-Summary(pl):	Skórka WinampX
+Summary(pl.UTF-8):   SkÃ³rka WinampX
 Group:		X11/Applications/Multimedia
 Requires:	xmms
 Provides:	xmms-skin
@@ -298,8 +298,8 @@ Obsoletes:	xmms-skins2
 %description -n xmms-skin-WinampX
 WinampX skin.
 
-%description -n xmms-skin-WinampX -l pl
-Skórka WinampX.
+%description -n xmms-skin-WinampX -l pl.UTF-8
+SkÃ³rka WinampX.
 
 %prep
 %setup -q -n xmms-skins2
